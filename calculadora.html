@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="calculadora.css">
+    <link rel="stylesheet" href="calculadora.js">
 </head>
 
 <body>
@@ -16,7 +17,8 @@
             <table>
                 <tr>
                     <td><button class="botao" onclick="clean()">C</button></td>
-                    <td><button class="botao" onclick="voltar()"><</button>
+                    <td><button class="botao" onclick="voltar()">
+                            << /button>
                     </td>
                     <td><button class="botao" onclick="inserir('/')">/</button></td>
                     <td><button class="botao" onclick="inserir('*')">X</button></td>
@@ -46,7 +48,8 @@
             </table>
         </div>
     </div>
-    <script>
+
+    <SCript>
         function inserir(numero) {
             var numeroero = document.getElementById('resultado').innerHTML;
             document.getElementById('resultado').innerHTML = numeroero + numero;
@@ -64,4 +67,7 @@
                 document.getElementById('resultado').innerHTML = eval(resultado);
             }
         }
-    </script>
+        function pull() {
+
+        }
+    </SCript>
