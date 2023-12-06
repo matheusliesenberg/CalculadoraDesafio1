@@ -15,7 +15,7 @@ function Voltar() {
     tela.length - 1
   );
 }
-  //A função calcular() calcula o resultado da expressão matemática que está no conteúdo da tela da calculadora.
+//A função calcular() calcula o resultado da expressão matemática que está no conteúdo da tela da calculadora.
 function calcular() {
   let tela = document.querySelector(".tela").innerHTML;
   // Se tiver comando na tela ele era executar.
@@ -27,3 +27,39 @@ function calcular() {
     document.querySelector(".tela").innerHTML = "Sem comando...";
   }
 }
+
+document.addEventListener("keypress", (e) => {
+  if (e.key == 0) {
+    insert(0);
+  }
+  if (e.key == 1) {
+    insert(1);
+  }
+  if (e.key == 2) {
+    insert(2);
+  }
+  if (e.key == 3) {
+    insert(3);
+  }
+  if (e.key == 4) {
+    insert(4);
+  }
+  if (e.key == 5) {
+    insert(5);
+  }
+  if (e.key == 6) {
+    insert(6);
+  }
+  if (e.key == 7) {
+    insert(7);
+  }
+  if (e.key == 8) {
+    insert(8);
+  }
+  if (e.key == 9) {
+    insert(9);
+  }
+  if (e.key == ) {
+    insert();
+  }
+})
