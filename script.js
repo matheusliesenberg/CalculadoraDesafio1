@@ -59,7 +59,7 @@ document.addEventListener("keypress", (e) => {
   if (e.key == 9) {
     insert(9);
   }
-  if (e.key == ) {
-    insert();
+  if (e.key == "+") {
+    insert("+");
   }
 })
