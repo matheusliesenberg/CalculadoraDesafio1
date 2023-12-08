@@ -62,4 +62,17 @@ document.addEventListener("keypress", (e) => {
   if (e.key == "+") {
     insert("+");
   }
+  if (e.key == "-") {
+    insert("-");
+  }
+  if (e.key == "*") {
+    insert("*");
+  }
+  if (e.key == "/") {
+    insert("/");
+  }  if (e.key == ".") {
+    insert(".");
+  }  if (e.key == "") {
+    insert("");
+  }
 })
